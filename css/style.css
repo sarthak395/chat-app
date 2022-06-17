@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 10%;
+    width: 10%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: grey;
+}
+nav{
+    background-color: burlywood;
+    padding: 15px;
+}
+.container{
+    background-image: url("../media/bgimg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    margin: 2%;
+    padding: 1%;
+    height: 500px;
+    max-height: 955px;
+    overflow-y: scroll;
+    backdrop-filter: blur(6px);
+    /* background-color: aqua; */
+}
+
+.message{
+    margin: 1%;
+    border: 2px solid black;
+    width: 27%;
+    padding: 1%;
+    border-radius: 40px;
+    background-color: gray;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+.left
+{
+    float: left;
+    clear: both;
+}
+
+
+.send{
+    width: 96%;
+    margin-top: -17px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#messageinp{
+    width: 71%;
+    margin: 10px;
+    border: 3px solid blue;
+    border-radius: 20px;
+    text-align: center;
+    padding: 9px;
+    font-size: 19px;
+}
+
+#sendbutton{
+    font-size: 19px;
+    height: 10%;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    float: right;
+    margin: 16px;
+}
+
+.deleteim{
+    display: inline-block;
+    height: 13px;
+    float: right;
+    margin-top: 6px;
+}
+

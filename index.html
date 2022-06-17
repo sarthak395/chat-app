@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <title>CHAT IO</title>
+        <script src="http://localhost:8000/socket.io/socket.io.js" defer></script>
+        <script src="js/client.js" defer></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav>
+            <button onclick="changebg()">Change Background</button>
+            <center>
+            <img class="logo" src="media/img.jpg">
+            <h2>Welcome To The Ichat App</h2>
+        </center>
+        </nav>
+        <div class="container" id="container">
+            <div class="message right" id="1">Hi<img class="deleteim" src="media/dustbin.png" onclick="remove(this)"></div>
+            <div class="message left" id="2">Hello To You Too <img class="deleteim" src="media/dustbin.png" onclick="remove(this)"></div>
+        </div>
+
+         <div class="send">
+            <form id="send-container">
+                <input type="text" id="messageinp" name="messageinp" placeholder="Type something">
+                <input type="submit" id="sendbutton" name="sendbutton" value="Send">
+            </form>
+         </div>
+    </body>
+</html>
